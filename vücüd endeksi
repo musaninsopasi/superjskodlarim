@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Vücüd endeksi</title>
+</head>
+<body>
+<form name="KitleForm">
+Kilo(kg): <input type="text" name="kilo" size="10"><br />
+Boy(cm): <input type="text" name="boy" size="10"><br />
+<input type="button" value="Kontrol Et" onClick="hesapla()"><br />
+Vücut Kitle Endeksiniz: <input type="text" name="endeks" size="10"><br />
+Sonuca Göre: <input type="text" name="islemsonucu" size="25"><br />
+<input type="reset" value="Temizle" />
+</form>
+</body>
+</html>
